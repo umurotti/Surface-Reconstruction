@@ -1,10 +1,14 @@
 # Surface-Reconstruction
 Using C++ and the Point Cloud Library (PCL), a command line tool which loads a pointcloud file and performs a surface reconstruction on it, and then saves the constructed mesh to disk.
+
+
 Name:	Umur Gogebakan
-email:	umur.gogebakan@gmail.com
+
+Email:	umur.gogebakan@gmail.com
+
 Ankara, Turkey
 
-		COMPILATION
+## COMPILE
 Example cmake command:
 	$cmake -DCMAKE_BUILD_TYPE=None -DCMAKE_INSTALL_PREFIX=/usr           -DBUILD_GPU=ON -DBUILD_apps=ON -DBUILD_examples=ON
 Then, typing make should simple yield the exacutable file called surface_reconstruct:
@@ -15,7 +19,7 @@ Then, typing make should simple yield the exacutable file called surface_reconst
 	[100%] Linking CXX executable surface_reconstruct
 	[100%] Built target surface_reconstruct
 	
-	EXECUTION
+## EXECUTE
 Usage examples:
 ./surface_reconstruct bun000.ply output.obj
 
